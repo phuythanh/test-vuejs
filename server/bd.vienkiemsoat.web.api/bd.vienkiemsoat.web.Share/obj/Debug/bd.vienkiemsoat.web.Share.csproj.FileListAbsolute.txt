@@ -1,0 +1,12 @@
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\bin\Debug\bd.vienkiemsoat.web.Share.dll
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\bin\Debug\bd.vienkiemsoat.web.Share.pdb
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.csprojAssemblyReference.cache
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.csproj.CoreCompileInputs.cache
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.dll
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.pdb
+D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\bin\Debug\bd.vienkiemsoat.web.Share.dll
+D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\bin\Debug\bd.vienkiemsoat.web.Share.pdb
+D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.csprojAssemblyReference.cache
+D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.csproj.CoreCompileInputs.cache
+D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.dll
+D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Share\obj\Debug\bd.vienkiemsoat.web.Share.pdb

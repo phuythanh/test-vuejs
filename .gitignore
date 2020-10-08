@@ -23,3 +23,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+*.dll
+server/bd.vienkiemsoat.web.api/packages/System.Text.Encodings.Web.4.5.0/System.Text.Encodings.Web.4.5.0.nupkg
+server/bd.vienkiemsoat.web.api/bd.vienkiemsoat.web.api/obj/Release/Package/PackageTmp/Views/Home/_Home.cshtml
+server/bd.vienkiemsoat.web.api/bd.vienkiemsoat.web.api/obj/
+Package/

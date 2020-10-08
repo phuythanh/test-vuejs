@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SOFTZ_UTDAUModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="RP_NHAPXUAT_PHIEU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UID" Type="int" Mode="In" />
+          <Parameter Name="LCT" Type="nvarchar" Mode="In" />
+          <Parameter Name="pDS_MAKHO" Type="nvarchar" Mode="In" />
+          <Parameter Name="pTU" Type="datetime" Mode="In" />
+          <Parameter Name="pDEN" Type="datetime" Mode="In" />
+          <Parameter Name="pDS_MADT" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="SOFTZ_UTDAUModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SOFTZ_UTDAUModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SOFTZ_UTDAUEntities1" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="RP_NHAPXUAT_PHIEU" ReturnType="Collection(SOFTZ_UTDAUModel.RP_NHAPXUAT_PHIEU_Result)">
+            <Parameter Name="UID" Mode="In" Type="Int32" />
+            <Parameter Name="LCT" Mode="In" Type="String" />
+            <Parameter Name="pDS_MAKHO" Mode="In" Type="String" />
+            <Parameter Name="pTU" Mode="In" Type="DateTime" />
+            <Parameter Name="pDEN" Mode="In" Type="DateTime" />
+            <Parameter Name="pDS_MADT" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="RP_NHAPXUAT_PHIEU_Result">
+          <Property Type="String" Name="Header1" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Header2" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Header3" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="UserName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="FT_DECIMAL_SEPARATOR" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="FT_THOUSAND_SEPARATOR" Nullable="true" MaxLength="1" />
+          <Property Type="Int32" Name="FT_QTY_DECIMALS" Nullable="true" />
+          <Property Type="Int32" Name="FT_QTY_ROUNDING" Nullable="true" />
+          <Property Type="Int32" Name="FT_CUR_DECIMALS" Nullable="true" />
+          <Property Type="Int32" Name="FT_CUR_ROUNDING" Nullable="true" />
+          <Property Type="DateTime" Name="NGAY" Nullable="true" Precision="23" />
+          <Property Type="String" Name="SCT" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="LCT" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="HOADON_SO" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="HOADON_SERI" Nullable="true" MaxLength="10" />
+          <Property Type="DateTime" Name="HOADON_NGAY" Nullable="true" Precision="23" />
+          <Property Type="String" Name="PHIEUGIAOHANG" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="HINHTHUC_GIA" Nullable="true" MaxLength="15" />
+          <Property Type="Double" Name="SOLUONG" Nullable="true" />
+          <Property Type="Double" Name="SOTIEN" Nullable="true" />
+          <Property Type="Double" Name="CHIETKHAU_MH" Nullable="true" />
+          <Property Type="Double" Name="SOTIEN1" Nullable="true" />
+          <Property Type="Double" Name="CHIETKHAU_HD" Nullable="true" />
+          <Property Type="Double" Name="SOTIEN2" Nullable="true" />
+          <Property Type="Double" Name="THUE" Nullable="true" />
+          <Property Type="Double" Name="THANHTIEN" Nullable="true" />
+          <Property Type="Double" Name="CL_THUE" Nullable="true" />
+          <Property Type="Double" Name="THANHTOAN" Nullable="true" />
+          <Property Type="String" Name="MAKHO" Nullable="true" MaxLength="5" />
+          <Property Type="String" Name="TENKHO" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="MADT" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="TENDT" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="DGIAI" Nullable="true" MaxLength="250" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SOFTZ_UTDAUModelStoreContainer" CdmEntityContainer="SOFTZ_UTDAUEntities1" >
+          <FunctionImportMapping FunctionImportName="RP_NHAPXUAT_PHIEU" FunctionName="SOFTZ_UTDAUModel.Store.RP_NHAPXUAT_PHIEU">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SOFTZ_UTDAUModel.RP_NHAPXUAT_PHIEU_Result">
+                <ScalarProperty Name="Header1" ColumnName="Header1" />
+                <ScalarProperty Name="Header2" ColumnName="Header2" />
+                <ScalarProperty Name="Header3" ColumnName="Header3" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="FT_DECIMAL_SEPARATOR" ColumnName="FT_DECIMAL_SEPARATOR" />
+                <ScalarProperty Name="FT_THOUSAND_SEPARATOR" ColumnName="FT_THOUSAND_SEPARATOR" />
+                <ScalarProperty Name="FT_QTY_DECIMALS" ColumnName="FT_QTY_DECIMALS" />
+                <ScalarProperty Name="FT_QTY_ROUNDING" ColumnName="FT_QTY_ROUNDING" />
+                <ScalarProperty Name="FT_CUR_DECIMALS" ColumnName="FT_CUR_DECIMALS" />
+                <ScalarProperty Name="FT_CUR_ROUNDING" ColumnName="FT_CUR_ROUNDING" />
+                <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+                <ScalarProperty Name="SCT" ColumnName="SCT" />
+                <ScalarProperty Name="LCT" ColumnName="LCT" />
+                <ScalarProperty Name="HOADON_SO" ColumnName="HOADON_SO" />
+                <ScalarProperty Name="HOADON_SERI" ColumnName="HOADON_SERI" />
+                <ScalarProperty Name="HOADON_NGAY" ColumnName="HOADON_NGAY" />
+                <ScalarProperty Name="PHIEUGIAOHANG" ColumnName="PHIEUGIAOHANG" />
+                <ScalarProperty Name="HINHTHUC_GIA" ColumnName="HINHTHUC_GIA" />
+                <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+                <ScalarProperty Name="SOTIEN" ColumnName="SOTIEN" />
+                <ScalarProperty Name="CHIETKHAU_MH" ColumnName="CHIETKHAU_MH" />
+                <ScalarProperty Name="SOTIEN1" ColumnName="SOTIEN1" />
+                <ScalarProperty Name="CHIETKHAU_HD" ColumnName="CHIETKHAU_HD" />
+                <ScalarProperty Name="SOTIEN2" ColumnName="SOTIEN2" />
+                <ScalarProperty Name="THUE" ColumnName="THUE" />
+                <ScalarProperty Name="THANHTIEN" ColumnName="THANHTIEN" />
+                <ScalarProperty Name="CL_THUE" ColumnName="CL_THUE" />
+                <ScalarProperty Name="THANHTOAN" ColumnName="THANHTOAN" />
+                <ScalarProperty Name="MAKHO" ColumnName="MAKHO" />
+                <ScalarProperty Name="TENKHO" ColumnName="TENKHO" />
+                <ScalarProperty Name="MADT" ColumnName="MADT" />
+                <ScalarProperty Name="TENDT" ColumnName="TENDT" />
+                <ScalarProperty Name="DGIAI" ColumnName="DGIAI" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

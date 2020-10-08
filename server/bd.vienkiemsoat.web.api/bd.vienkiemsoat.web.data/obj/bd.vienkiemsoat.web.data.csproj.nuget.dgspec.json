@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.data\\bd.vienkiemsoat.web.data.csproj": {}
+  },
+  "projects": {
+    "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.data\\bd.vienkiemsoat.web.data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.data\\bd.vienkiemsoat.web.data.csproj",
+        "projectName": "bd.vienkiemsoat.web.data",
+        "projectPath": "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.data\\bd.vienkiemsoat.web.data.csproj",
+        "packagesPath": "C:\\Users\\THANH PHAN\\.nuget\\packages\\",
+        "outputPath": "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.data\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\THANH PHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.Share\\bd.vienkiemsoat.web.Share.csproj": {
+                "projectPath": "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.Share\\bd.vienkiemsoat.web.Share.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNet.Identity.Owin": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.Share\\bd.vienkiemsoat.web.Share.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.Share\\bd.vienkiemsoat.web.Share.csproj",
+        "projectName": "bd.vienkiemsoat.web.Share",
+        "projectPath": "D:\\working\\test-vuejs\\server\\bd.vienkiemsoat.web.api\\bd.vienkiemsoat.web.Share\\bd.vienkiemsoat.web.Share.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

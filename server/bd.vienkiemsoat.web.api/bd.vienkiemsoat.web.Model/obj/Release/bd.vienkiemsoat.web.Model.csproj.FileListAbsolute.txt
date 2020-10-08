@@ -1,0 +1,9 @@
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\bin\Release\bd.vienkiemsoat.web.Model.dll
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\bin\Release\bd.vienkiemsoat.web.Model.pdb
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\obj\Release\bd.vienkiemsoat.web.Model.csproj.CoreCompileInputs.cache
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\obj\Release\bd.vienkiemsoat.web.Model.dll
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\obj\Release\bd.vienkiemsoat.web.Model.pdb
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\bin\Release\bd.vienkiemsoat.web.Share.dll
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\bin\Release\bd.vienkiemsoat.web.Share.pdb
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\obj\Release\bd.vienkiemsoat.web.Model.csprojAssemblyReference.cache
+D:\working\dai-vks\bd.vienkiemsoat\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.Model\obj\Release\bd.vienkiemsoat.web.Model.csproj.CopyComplete
