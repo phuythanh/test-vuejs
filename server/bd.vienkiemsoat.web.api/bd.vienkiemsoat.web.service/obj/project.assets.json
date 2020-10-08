@@ -23,24 +23,6 @@
           "lib/net461/AutoMapper.dll": {}
         }
       },
-      "CrystalDecisions.CrystalReports.Engine/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        }
-      },
-      "CrystalDecisions.Shared/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.Shared.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.Shared.dll": {}
-        }
-      },
       "EntityFramework/6.2.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -308,24 +290,6 @@
         },
         "runtime": {
           "lib/net461/AutoMapper.dll": {}
-        }
-      },
-      "CrystalDecisions.CrystalReports.Engine/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        }
-      },
-      "CrystalDecisions.Shared/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.Shared.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.Shared.dll": {}
         }
       },
       "EntityFramework/6.2.0": {
@@ -597,24 +561,6 @@
           "lib/net461/AutoMapper.dll": {}
         }
       },
-      "CrystalDecisions.CrystalReports.Engine/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        }
-      },
-      "CrystalDecisions.Shared/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.Shared.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.Shared.dll": {}
-        }
-      },
       "EntityFramework/6.2.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -882,24 +828,6 @@
         },
         "runtime": {
           "lib/net461/AutoMapper.dll": {}
-        }
-      },
-      "CrystalDecisions.CrystalReports.Engine/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
-        }
-      },
-      "CrystalDecisions.Shared/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/CrystalDecisions.Shared.dll": {}
-        },
-        "runtime": {
-          "lib/CrystalDecisions.Shared.dll": {}
         }
       },
       "EntityFramework/6.2.0": {
@@ -1181,30 +1109,6 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
-      ]
-    },
-    "CrystalDecisions.CrystalReports.Engine/1.0.0": {
-      "sha512": "qr+XgfiEvAWXModuJy4IamWlkarFNL6c2ueA9PcZkLUkoz17L0rptDNzLzJkFaSP8hh+nAwfD2t3wvRLdbjFQw==",
-      "type": "package",
-      "path": "crystaldecisions.crystalreports.engine/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "crystaldecisions.crystalreports.engine.1.0.0.nupkg.sha512",
-        "crystaldecisions.crystalreports.engine.nuspec",
-        "lib/CrystalDecisions.CrystalReports.Engine.dll"
-      ]
-    },
-    "CrystalDecisions.Shared/1.0.0": {
-      "sha512": "M3T2xrJ/oTrPUu3j0ODVhP981QTPdoHSly47IfrIWy7UUROpfF1p8jRTYzBoy2toQ2B5PKtnnkpAimp2mtnrdg==",
-      "type": "package",
-      "path": "crystaldecisions.shared/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "crystaldecisions.shared.1.0.0.nupkg.sha512",
-        "crystaldecisions.shared.nuspec",
-        "lib/CrystalDecisions.Shared.dll"
       ]
     },
     "EntityFramework/6.2.0": {
@@ -1500,8 +1404,6 @@
     ".NETFramework,Version=v4.6.1": [
       "AutoMapper >= 8.1.1",
       "Autofac >= 3.5.2",
-      "CrystalDecisions.CrystalReports.Engine >= 1.0.0",
-      "CrystalDecisions.Shared >= 1.0.0",
       "Microsoft.AspNet.Identity.Owin >= 2.2.2",
       "Microsoft.Report.Viewer >= 11.0.0",
       "Microsoft.SqlServer.Types >= 11.0.0",
@@ -1561,14 +1463,6 @@
           "Autofac": {
             "target": "Package",
             "version": "[3.5.2, )"
-          },
-          "CrystalDecisions.CrystalReports.Engine": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
-          "CrystalDecisions.Shared": {
-            "target": "Package",
-            "version": "[1.0.0, )"
           },
           "Microsoft.AspNet.Identity.Owin": {
             "target": "Package",

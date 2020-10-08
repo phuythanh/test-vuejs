@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SOFTZ_UTDAUModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SOFTZ_UTDAUEntities1" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="RP_NHAPXUAT_PHIEU" ReturnType="Collection(SOFTZ_UTDAUModel.RP_NHAPXUAT_PHIEU_Result)">
+      <Parameter Name="UID" Mode="In" Type="Int32" />
+      <Parameter Name="LCT" Mode="In" Type="String" />
+      <Parameter Name="pDS_MAKHO" Mode="In" Type="String" />
+      <Parameter Name="pTU" Mode="In" Type="DateTime" />
+      <Parameter Name="pDEN" Mode="In" Type="DateTime" />
+      <Parameter Name="pDS_MADT" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="RP_NHAPXUAT_PHIEU_Result">
+    <Property Type="String" Name="Header1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Header2" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Header3" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="FT_DECIMAL_SEPARATOR" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="FT_THOUSAND_SEPARATOR" Nullable="true" MaxLength="1" />
+    <Property Type="Int32" Name="FT_QTY_DECIMALS" Nullable="true" />
+    <Property Type="Int32" Name="FT_QTY_ROUNDING" Nullable="true" />
+    <Property Type="Int32" Name="FT_CUR_DECIMALS" Nullable="true" />
+    <Property Type="Int32" Name="FT_CUR_ROUNDING" Nullable="true" />
+    <Property Type="DateTime" Name="NGAY" Nullable="true" Precision="23" />
+    <Property Type="String" Name="SCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="LCT" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="HOADON_SO" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="HOADON_SERI" Nullable="true" MaxLength="10" />
+    <Property Type="DateTime" Name="HOADON_NGAY" Nullable="true" Precision="23" />
+    <Property Type="String" Name="PHIEUGIAOHANG" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="HINHTHUC_GIA" Nullable="true" MaxLength="15" />
+    <Property Type="Double" Name="SOLUONG" Nullable="true" />
+    <Property Type="Double" Name="SOTIEN" Nullable="true" />
+    <Property Type="Double" Name="CHIETKHAU_MH" Nullable="true" />
+    <Property Type="Double" Name="SOTIEN1" Nullable="true" />
+    <Property Type="Double" Name="CHIETKHAU_HD" Nullable="true" />
+    <Property Type="Double" Name="SOTIEN2" Nullable="true" />
+    <Property Type="Double" Name="THUE" Nullable="true" />
+    <Property Type="Double" Name="THANHTIEN" Nullable="true" />
+    <Property Type="Double" Name="CL_THUE" Nullable="true" />
+    <Property Type="Double" Name="THANHTOAN" Nullable="true" />
+    <Property Type="String" Name="MAKHO" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="TENKHO" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MADT" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="TENDT" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="DGIAI" Nullable="true" MaxLength="250" />
+  </ComplexType>
+</Schema>

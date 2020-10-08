@@ -55,3 +55,4 @@ D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.data\bi
 D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.data\bin\Debug\bd.vienkiemsoat.web.Share.dll
 D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.data\bin\Debug\bd.vienkiemsoat.web.Share.pdb
 D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.data\obj\Debug\bd.vienkiemsoat.web.data.csproj.CopyComplete
+D:\working\test-vuejs\server\bd.vienkiemsoat.web.api\bd.vienkiemsoat.web.data\bin\Debug\bd.vienkiemsoat.web.data.dll.config

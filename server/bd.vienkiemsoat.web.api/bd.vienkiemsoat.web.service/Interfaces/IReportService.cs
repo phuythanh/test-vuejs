@@ -6,7 +6,7 @@ namespace bd.vienkiemsoat.web.service.Interfaces
     {
         byte[] ExportExcel(string fileName, Dictionary<string, object> dataset, Dictionary<string, string> parameters = null);
 
-        byte[] ExportPDF(string fileName, Dictionary<string, object> dataset, Dictionary<string, string> parameters = null);
+        byte[] ExportPDF(string fileName, Dictionary<string, object> dataset, Dictionary<string, object> parameters = null);
 
 
     }

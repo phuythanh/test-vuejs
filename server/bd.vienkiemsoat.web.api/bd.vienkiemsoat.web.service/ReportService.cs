@@ -30,7 +30,7 @@ namespace bd.vienkiemsoat.web.service
             return bytes;
         }
 
-        public byte[] ExportPDF(string fileName, Dictionary<string, object> dataset, Dictionary<string, string> parameters)
+        public byte[] ExportPDF(string fileName, Dictionary<string, object> dataset, Dictionary<string, object> parameters)
         {
             throw new System.NotImplementedException();
         }

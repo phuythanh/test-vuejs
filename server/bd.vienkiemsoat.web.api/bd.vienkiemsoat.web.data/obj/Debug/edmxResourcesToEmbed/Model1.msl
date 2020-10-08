@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SOFTZ_UTDAUModelStoreContainer" CdmEntityContainer="SOFTZ_UTDAUEntities1">
+    <FunctionImportMapping FunctionImportName="RP_NHAPXUAT_PHIEU" FunctionName="SOFTZ_UTDAUModel.Store.RP_NHAPXUAT_PHIEU">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SOFTZ_UTDAUModel.RP_NHAPXUAT_PHIEU_Result">
+          <ScalarProperty Name="Header1" ColumnName="Header1" />
+          <ScalarProperty Name="Header2" ColumnName="Header2" />
+          <ScalarProperty Name="Header3" ColumnName="Header3" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FT_DECIMAL_SEPARATOR" ColumnName="FT_DECIMAL_SEPARATOR" />
+          <ScalarProperty Name="FT_THOUSAND_SEPARATOR" ColumnName="FT_THOUSAND_SEPARATOR" />
+          <ScalarProperty Name="FT_QTY_DECIMALS" ColumnName="FT_QTY_DECIMALS" />
+          <ScalarProperty Name="FT_QTY_ROUNDING" ColumnName="FT_QTY_ROUNDING" />
+          <ScalarProperty Name="FT_CUR_DECIMALS" ColumnName="FT_CUR_DECIMALS" />
+          <ScalarProperty Name="FT_CUR_ROUNDING" ColumnName="FT_CUR_ROUNDING" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="SCT" ColumnName="SCT" />
+          <ScalarProperty Name="LCT" ColumnName="LCT" />
+          <ScalarProperty Name="HOADON_SO" ColumnName="HOADON_SO" />
+          <ScalarProperty Name="HOADON_SERI" ColumnName="HOADON_SERI" />
+          <ScalarProperty Name="HOADON_NGAY" ColumnName="HOADON_NGAY" />
+          <ScalarProperty Name="PHIEUGIAOHANG" ColumnName="PHIEUGIAOHANG" />
+          <ScalarProperty Name="HINHTHUC_GIA" ColumnName="HINHTHUC_GIA" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="SOTIEN" ColumnName="SOTIEN" />
+          <ScalarProperty Name="CHIETKHAU_MH" ColumnName="CHIETKHAU_MH" />
+          <ScalarProperty Name="SOTIEN1" ColumnName="SOTIEN1" />
+          <ScalarProperty Name="CHIETKHAU_HD" ColumnName="CHIETKHAU_HD" />
+          <ScalarProperty Name="SOTIEN2" ColumnName="SOTIEN2" />
+          <ScalarProperty Name="THUE" ColumnName="THUE" />
+          <ScalarProperty Name="THANHTIEN" ColumnName="THANHTIEN" />
+          <ScalarProperty Name="CL_THUE" ColumnName="CL_THUE" />
+          <ScalarProperty Name="THANHTOAN" ColumnName="THANHTOAN" />
+          <ScalarProperty Name="MAKHO" ColumnName="MAKHO" />
+          <ScalarProperty Name="TENKHO" ColumnName="TENKHO" />
+          <ScalarProperty Name="MADT" ColumnName="MADT" />
+          <ScalarProperty Name="TENDT" ColumnName="TENDT" />
+          <ScalarProperty Name="DGIAI" ColumnName="DGIAI" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

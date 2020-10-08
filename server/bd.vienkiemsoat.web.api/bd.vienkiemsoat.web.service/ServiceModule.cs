@@ -18,7 +18,7 @@ namespace bd.vienkiemsoat.web.service
             builder.RegisterModule(new data.DataModule(_connectionString));
             builder.RegisterModule(new AutoMapperModule());
             builder.RegisterType<CosoService>().As<ICosoService>();
-            builder.RegisterType<ReportService>().As<IReportService>();
+            builder.RegisterType<ReportCrystalService>().As<IReportService>();
             
 
             base.Load(builder);
