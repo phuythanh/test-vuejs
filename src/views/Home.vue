@@ -10,6 +10,11 @@
         <ContryDetail />
       </el-col>
     </el-row>
+    <el-row>
+      <el-col>
+        <DemoPDF />
+      </el-col>
+    </el-row>
   </div>
 </template>
 
@@ -19,6 +24,7 @@ export default {
   components: {
     Countries: () => import("../components/Countries.vue"),
     ContryDetail: () => import("../components/ContryDetail.vue"),
+    DemoPDF: () => import("../components/DemoPDF.vue"),
   },
 };
 </script>
