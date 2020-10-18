@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <el-select v-model="countrySelect" placeholder="Select" filterable>
+    <el-select v-model="countrySelect" placeholder="Select " filterable>
       <el-option
         v-for="country in countries"
         :key="country.ISO2"
